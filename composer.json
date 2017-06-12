@@ -7,7 +7,7 @@
     "keywords": ["nette", "jsonp"],
     "type": "library",
     "license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
-    "homepage": "https://github.com/contributte/http",
+    "homepage": "https://github.com/residit/nette-jsonp",
     "authors": [
         {
             "name": "Tomas Kavka"
