@@ -1,6 +1,6 @@
 {
     "name": "residit/nette-jsonp",
-    "description": "Nette JSONP Reponse Extension",
+    "description": "Nette JSONP Response Extension",
     "require": {
         "php": ">= 5.6"
     },
