@@ -2,6 +2,15 @@
     "name": "residit/nette-jsonp",
     "description": "Nette JSONP Reponse Extension",
     "require": {
-        "php": "^5.3.3 || ^7.0"
-    }
+        "php": ">= 5.6"
+    },
+    "keywords": ["nette", "jsonp"],
+    "type": "library",
+    "license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+    "homepage": "https://github.com/contributte/http",
+    "authors": [
+        {
+            "name": "Tomas Kavka"
+        }
+    ]
 }
