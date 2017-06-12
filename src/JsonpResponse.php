@@ -4,7 +4,7 @@
  *
  * Copyright (c) 2012 Tomas Kavka (iam@tomaskavka.cz)
  */
-namespace Nette\Application\Responses;
+namespace Residit\Nette\Responses;
 use Nette,
     Nette\Utils\Json;
 /**
@@ -12,7 +12,7 @@ use Nette,
  *
  * @author     Tomas Kavka
  */
-class JsonpResponse extends JsonResponse
+class JsonpResponse extends Nette\Application\Responses\JsonResponse
 {
 	/** @var string */
 	private $callback;
