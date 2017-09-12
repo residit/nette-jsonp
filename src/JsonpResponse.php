@@ -4,7 +4,7 @@
  *
  * Copyright (c) 2012 Tomas Kavka (iam@tomaskavka.cz)
  */
-namespace Nette\Application\Responses;
+namespace Residit\Application\Responses;
 use Nette,
     Nette\Utils\Json;
 /**
