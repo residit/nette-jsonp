@@ -12,7 +12,7 @@ use Nette,
  *
  * @author     Tomas Kavka
  */
-class JsonpResponse extends JsonResponse
+class JsonpResponse extends Nette\Application\JsonResponse
 {
 	/** @var string */
 	private $callback;
