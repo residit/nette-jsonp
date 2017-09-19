@@ -15,12 +15,25 @@ Usage
 ```php
 namespace App\Presenters;
 
-use Nette;
+use Nette,
+  Residit\Application\Responses\JsonpResponse;
 
 class BasePresenter extends Nette\Application\UI\Presenter {
 
-  public function actionExampleEndpoint() {
-    $this->sendResponse(new \Residit\Application\Responses\JsonpResponse(array('foo' => 'bar')));
+  /**
+   * 
+   * @param string $callback 
+   * @param string $query
+   */
+  public function actionExampleEndpoint($callback, $query) {
+    // ...
+    // do the magic with $query
+    //
+ 
+    $data = array('foo' => 'bar');
+
+    $this->sendResponse(new JsonpResponse($callback, $data));
+
   }
 }
 ```
