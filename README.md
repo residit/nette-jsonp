@@ -28,7 +28,7 @@ class BasePresenter extends Nette\Application\UI\Presenter {
   public function actionExampleEndpoint($callback, $query) {
     // ...
     // do the magic with $query
-    //
+    // ...
  
     $data = array('foo' => 'bar');
 
