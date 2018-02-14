@@ -16,6 +16,7 @@ use Nette,
  * JSONP response used mainly for AJAX requests cross domain.
  *
  * @author     Tomas Kavka
+ *             Martin Falta
  */
 class JsonpResponse extends JsonResponse {
 
@@ -51,9 +52,9 @@ class JsonpResponse extends JsonResponse {
    * @return void
    */
   public function send(Nette\Http\IRequest $httpRequest, Nette\Http\IResponse $httpResponse) {
-    $httpResponse->setContentType($this->contentType);
+    $httpResponse->setContentType($this->getContentType());
     $httpResponse->setExpiration(FALSE);
-    echo $this->callback . '(' . Json::encode($this->payload) . ')';
+    echo $this->callback . '(' . Json::encode($this->getPayload()) . ')';
   }
 
 }
