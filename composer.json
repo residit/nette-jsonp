@@ -3,7 +3,7 @@
     "description": "Nette JSONP Response Extension",
     "require": {
         "php": ">= 5.6",
-        "nette/application": "^2.4"
+        "nette/application": "^2.4 || ^3.0"
     },
     "keywords": ["nette", "jsonp"],
     "type": "library",
